@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Abbreviation tag example</h2>  
+    <p><b>Hover mouse over the content and see the abbreviation</b></p>  
+    <abbr title="Hyper Text Transfer protocol">HTTP</abbr><br/>  
+    <abbr title="Jai Shree Mahakal">JSM</abbr>  
+    <p><abbr>CPU</abbr> is brain of a Computer</p>  
+    <acronym title="Indian Space Research Organisation">ISRO</acronym> <br> 
+    <abbr title="National Aeronautics and Space Administration">NASA</abbr>  
+    <address>
+        You can contact us at <a href="http://www.accenture.com/contact">www.Accenture.com</a>.<br>
+    </address>
+    <article>
+        <header>
+        <h1>Science</h1>
+        </header>
+        <p>texts here......</p>
+        </article>
+    <nav><h2>Navigation</h2><ul>   <li><a href="#">link a</a></li>   <li><a href="#">link b</a></li></ul></nav>
+        
+    <header> <h1>Main Page Title</h1>
+        <img src="a1.jpg" alt="Some logo" height="200px"> 
+    </header>
+       
+    <aside> 
+        <a href=“#mainframe” >Click here for revenue details.
+      </a> 
+    </aside>
+    <footer>
+        Copy rights &copy rights reserved.
+    </footer>
+    <section> 
+        <h2>Heading</h2> 
+        <img src="a4.jpg" alt="bird" height="300px"> 
+    </section>
+    <figure> <img src = "images.jpg" alt = "Lilies" />   
+    <figcaption>
+        Lilies, Lal Bagh
+    </figcaption>
+    </figure>
+    <p>It is now at <time>6:30</time> every morning.</p>
+    <meter value="6.7"    min="0" max="8" low="3" high="7" optimum="7">5 </meter><br>
+    Your download is <progress>85%</progress> complete
+    
+    <ol type="1">
+        <li>mona</li>
+        <li>sona</li>
+        <li>tina</li>
+        <li>rina</li>
+    </ol>
+    <ul type="A">
+        <li>mona</li>
+        <li>sona</li>
+        <li>tina</li>
+        <li>rina</li>
+    </ul>
+    <video>madhav</video>
+    <audio></audio>
+    <rt></rt>
+    <script>
+        // check for Geolocation support
+        // if (navigator.geolocation) {
+        // console.log('Geolocation is supported!');
+        // }
+        // else {
+        // console.log("Geolocation is not supported for this Browser/OS version yet.");
+        // }function updateLocation(){
+        div1=document.getElementById("currentLocation");
+        // check for Geolocation support
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        else {
+            div1.innerHTML='Geolocation is not supported for this Browser/OS version yet.';
+        }
+        
+        function showPosition(position){
+        div1.innerHTML="Latitude: " + position.coords.latitude + 
+        "<br>Longitude: " + position.coords.longitude; 
+        }
+    </script>
+</body>
+</html>

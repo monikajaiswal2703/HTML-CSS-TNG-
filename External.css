@@ -1,0 +1,33 @@
+.h{
+    background-color:plum;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.f1_d{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin-top: 16px;
+    height: 570px;
+    width: 1250px;
+    margin-left: 20px;
+}
+.in_d{
+    margin-left: 40px;
+    background-color: blue;
+    height: 40px;width: 40px;
+    float: left;
+    margin-top: 100px;
+}
+.in_di{
+    margin-left: 300px;
+    background-color: blue;
+    width: 20px;
+    height: 30px;
+    float: left;
+    margin-top: 100px;
+}
+.img{
+    width: 270px;
+    height: 270;
+}

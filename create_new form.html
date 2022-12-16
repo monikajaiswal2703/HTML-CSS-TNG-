@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Registration page</title>
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            }
+            table.center {
+                margin-left: auto; 
+                margin-right: auto;
+            } 
+        </style>
+
+    </head>
+    <body>
+        <center>
+        <h1>Welcome to registration form</h1>
+        <form>
+                Name :  <input type="text" id="name" name="name"><br><br>
+                City :<select>
+                    <option value="" selected>--Choose--</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="pune">Pune</option>
+                    <option value="karnataka">Bangluru</option>
+                    <option value="telngana">Hydrabad</option>
+                    <option value="ujjain">Ujjain</option>
+                    <option>Chennai</option>
+                </select><br><br>
+
+                State :<select>
+                    <option value="" selected>--Choose--</option>
+                    <option value="madhya pradesh">MP</option>
+                    <option value="andhra pradesh">AP</option>
+                    <option value="utrakhand">UK</option>
+                    <option value="utter pradesh">UP</option>
+                    <option value="bihar">Bihar</option>
+                </select><br><br>
+
+                Country :<select>
+                    <option value="" selected>--Choose--</option>
+                    <option value="canada">Canada</option>
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="nepal">Nepal</option>
+                    <option>Chennai</option>
+                </select><br><br>
+
+                Subject:
+                    <input type="checkbox">Math
+                    <input type="checkbox"> Physics
+                    <input type="checkbox"> Chemistry<br><br>
+
+                Gender :
+                    <input type="radio" id="gender" name="gender">Male
+                    <input type="radio" id="gender" name="gender">Female<br><br>
+
+                email:  
+                    <input type="email" id="email" name="email"><br><br>
+                    <!-- <input type="submit"> -->
+                <button>Submit</button>
+                <!-- <button type="button" onclick="alert('form submit')">Submit</button> -->
+        </form>
+    </center>
+    </body>
+</html>
